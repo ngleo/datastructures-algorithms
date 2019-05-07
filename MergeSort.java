@@ -110,7 +110,7 @@ public class MergeSort {
     MergeSort ob = new MergeSort();
 
     try {
-      cr.readFile("/Users/db15/IdeaProjects/algo/src/resources/intList.csv");
+      cr.readFile("./resources/intList.csv");
     } catch(Exception e) {
       e.printStackTrace();
     }
